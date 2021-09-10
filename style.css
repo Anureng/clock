@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  height: 40vh;
+  width: 75vw;
+  position: absolute;
+  background-image:url("clock.jpg");
+  background-size: cover;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+#hours,#minutes,#second{
+  position: relative;
+  transform-origin: bottom;
+  
+}
+#minutes{
+  height: 90px;
+  width: 5px;
+  top:-50px;
+  left: 130px;
+  background-color: black;
+}
+#hours{
+  height: 90px;
+  width: 5px;
+  top:50px;
+  left: 120px;
+  background-color:red;
+}
+#second{
+  height: 90px;
+  width: 5px;
+  top: -140px;
+  left: 130px;
+  background-color:blue;
+}
+.roll{
+  height: 8vw;
+  width: 8vw;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 101;
+  left:120px;
+  top:120px;
+  position: absolute;
+}
+
